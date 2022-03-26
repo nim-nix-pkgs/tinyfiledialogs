@@ -11,6 +11,7 @@
   inputs.src-tinyfiledialogs-master.ref   = "refs/heads/master";
   inputs.src-tinyfiledialogs-master.owner = "juancarlospaco";
   inputs.src-tinyfiledialogs-master.repo  = "nim-tinyfiledialogs";
+  inputs.src-tinyfiledialogs-master.dir   = "";
   inputs.src-tinyfiledialogs-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
